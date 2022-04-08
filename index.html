@@ -16,67 +16,84 @@
      <!-- Animate.css -->
      <link rel="stylesheet" href="css/animate.css">
      <!-- Bootstrap -->
-     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="https://bootswatch.com/5/journal/bootstrap.min.css">
      <!-- Theme style -->
      <link rel="stylesheet" href="css/style.css">
 
+     <!--MARIANNE DUBOIS DESIGN-->
 
 </head>
-<body>
- 
-     <aside id="aside" role="complementary" class="border js-fullheight">
+<body> 
 
-          <img class="logo" src="./public/images/photo.jpg" alt="image">
-
-          <h1><a href="index.html">Marianne Dubois</a></h1>
-          <nav class="navigation" role="navigation">
-               <ul>
-                    <li class="page-scroll"><a href="#top">Accueil</a></li>
-                    <li class="page-scroll"><a href="#about">A Propos</a></li>
-                    <li class="page-scroll"><a href="#skills">Compétences</a></li>
-                    <li class="page-scroll"><a href="#experience">Expérience</a></li>
-                    <li class="page-scroll"><a href="#formation">Formation</a></li>
-                    <li class="page-scroll"><a href="#contact">Contact</a></li>
-               </ul>
-          </nav>
-
-          <div class="footer">
-               <ul>
-                    <li><a href="https://github.com/Harukishi" title="github"><i class="fa-brands fa-github-square"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/mariannedubois1/" title="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
-               </ul>
-               <p class="copyright"> 2022. All Rights Reserved.</span><br>
-               <span>Designed by Marianne Dubois</span></p>
+     <nav class="navbar navbar-expand-lg position-sticky fixed-top">
+          <a class="navbar-brand ps-5" href="index.html">Marianne Dubois</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">A Propos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Compétences</a>
+              </li>
+              <li class="nav-item ">
+               <a class="nav-link" href="#experience">Expérience</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#formation">Formation</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#contact">Contact</a>
+             </li>
+            </ul>
           </div>
+        </nav>
 
-     </aside>
+</div>
 
      <main>
-          <section id="top" class="banniere">
-               <div class="title">
-                    <h1>Developpeuse Web</h1>
+          <section id="top">
+               <div class="wrapper">
+
+                    <video autoplay loop muted class="wrapper__video" src="https://s3.eu-west-1.amazonaws.com/eu-west-1.vimeo.com/videos/680/129/680129059.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAZRUUNWVAWWO32QM7%2F20220408%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20220408T080013Z&X-Amz-Expires=173469&X-Amz-SignedHeaders=host&X-Amz-Signature=546c2eeb9b7caaf8fa3d68be4a02ac1246e278f41e16e68bc23975e568ca69eb"></video>
+
+               </div>
+
+               <div class="title p-5">
+                    <h1>Marianne Dubois</h1><h3> Developpeuse Web Enthousiaste</h3>
                </div>
           </section>
      
           <section id="about" class="about">
                <div class="container-fluid">
                     <h2>A Propos <img src="https://img.icons8.com/ios/30/000000/about.png"/></h2>
-                    <p>Bonjour ! Je m'appelle Marianne.  <br>
-                         Passionnée par le monde de l'informatique depuis de nombreuses années, curieuse et motivée je suis à la recherche d'opportunités en tant que Développeuse web et web mobile. 
-                         Je suis la fondatrice et créatrice du site : PetitDino
-                    </p>
-                    <a href="MarianneDuboisCV.pdf" class="btn" target="_blank" download>Télécharger mon cv </a>
+                    <div class="d-flex justify-content-center gap-5">
+                         <div class="logo">
+                              <img src="./public/images/download20211003215515.png" alt="photo">
+                         </div>
+                         <div class="text-wrap" style="width: 60rem;">
+                              <p  class="text-start">Bonjour ! Je m'appelle Marianne.  <br>
+                              Passionnée par le monde de l'informatique depuis de nombreuses années, curieuse et motivée je suis à la recherche d'opportunités en tant que Développeuse web.<br>
+                              Je suis la fondatrice et créatrice du site : PetitDino</p>
+                         </div>
+
+                    </div>
+
+                    <a href="MarianneDuboisCV.pdf" class="btn mb-5" target="_blank" download>Télécharger mon cv </a>
                </div>
           </section>
 
           <section id="skills" class="section-skills">
-               <div class="container-fluid skills">
+               <div class="container skills">
                     <h2>Mes compétences <img src="https://img.icons8.com/external-itim2101-lineal-itim2101/40/000000/external-skill-company-itim2101-lineal-itim2101.png"/></h2>
                     <div>
                          <div class="col-sm-12">
                               <h3 class="dark"> Hard Skills</h3>
                          </div>
-                         <div class="col-sm-4">
+                         <div class="d-flex flex-row justify-content-around ">
                               <div>
                                    <h3>Front-end</h3>
                                    <hr>
@@ -91,8 +108,8 @@
                                         <li>Twig</li>
                                    </ul>
                               </div>
-                         </div>
-                         <div class="col-sm-4">
+                         
+                         
                               <div>
                                    <h3>Back-end</h3>
                                    <hr>
@@ -102,8 +119,6 @@
                                         <li><i class="fa-brands fa-symfony"></i> Symfony</li>
                                    </ul>
                               </div>
-                         </div>
-                         <div class="col-sm-4">
                               <div>
                                    <h3>Autres</h3>
                                    <hr>
@@ -118,7 +133,7 @@
                     </div>
 
                     <div class="col-sm-12">
-                    <hr>
+                    
                          <h3 class="dark"> Soft Skills</h3>
                          <ul>
                               <li>esprit d'équipe - méthode agile</li>
@@ -127,19 +142,20 @@
                          </ul>
                     </div>
 
-                    <div class="col-sm-12">
-                         <hr>
+                    <div class="col-sm-12 ">
+                         
                               <h3 class="dark">Langues</h3>
-                              <div class="col-sm-4"><img src="https://img.icons8.com/doodle/25/000000/france.png"/> Français - natif</div>
-                              <div class="col-sm-4"><img src="https://img.icons8.com/doodle/25/000000/great-britain.png"/> Anglais - courant</div>
-                              <div class="col-sm-4"><img src="https://img.icons8.com/doodle/25/000000/portugal.png"/> Portugais - bilingue</div>
+                         <div class="d-flex flex-row justify-content-around pb-5">
+                              <div><img src="https://img.icons8.com/doodle/25/000000/france.png"/> Français - natif</div>
+                              <div><img src="https://img.icons8.com/doodle/25/000000/great-britain.png"/> Anglais - courant</div>
+                              <div><img src="https://img.icons8.com/doodle/25/000000/portugal.png"/> Portugais - bilingue</div>
                          </div>
                </div>          
                     
           </section>
 
-          <section id="experience" class="experience">
-               <div class="container-fluid">
+          <section id="experience" class="experience container mb-5">
+               <div>
                     <h2>Mes Expériences <img src="https://img.icons8.com/external-itim2101-lineal-itim2101/40/000000/external-resume-human-resources-itim2101-lineal-itim2101-2.png"/></h2>
                     <div>
                          <h4>Développeuse Web - Aniteck</h4>
@@ -176,8 +192,8 @@
           </section>
 
           <section class="site-section section-counters count">
-               <div class="container-fluid skills">
-                   <div class="row">
+               <div class="container skills">
+                   <div class="row p-5">
                        <div class="col-sm-4 col-xs-12">
                            <p class="counter">1</p>
                            <h3>Années d'Experiences</h3>
@@ -194,8 +210,8 @@
                </div>
           </section>
 
-          <section id="formation" class="formation">
-               <div class="container-fluid">
+          <section id="formation" class="about container my-5 pb-5">
+               <div>
                     <h2>Formation <img src="https://img.icons8.com/external-bartama-outline-64-bartama-graphic/30/000000/external-bachelor-miscellaneous-elements-outline-bartama-outline-64-bartama-graphic.png"/></h2>
 
                     <div>
@@ -228,12 +244,12 @@
                     <div>
                          <h4>Formation OpenClassroom</h4>
                          <small>2021</small>
-                         <p><b>Apprenez à créer votre site web avec HTML5 et CSS3</b></p>
-                         <p><b>Adoptez une architecture MVC en PHP</b></p>
-                         <p><b>Concevez votre site web avec PHP et MySQL</b></p>
-                         <p><b>Create Web Page Layouts With CSS</b></p>
-                         <p><b>Écrivez du JavaScript pour le web</b></p>
-                         <p><b>Débutez avec React</b></p>
+                         <p>Apprenez à créer votre site web avec HTML5 et CSS3</p>
+                         <p>Adoptez une architecture MVC en PHP</p>
+                         <p>Concevez votre site web avec PHP et MySQL</p>
+                         <p>Create Web Page Layouts With CSS</p>
+                         <p>Écrivez du JavaScript pour le web</p>
+                         <p>Débutez avec React</p>
                     </div>
 
                     <div>
@@ -251,8 +267,8 @@
                </div>
           </section>
 
-          <section id="portfolio" class="portfolio">
-               <div class="container">
+          <section id="portfolio" class="about">
+               <div class="container pb-5">
                    <div class="text-center">
                        <h2>Mes derniers projets</h2>
                    </div>
@@ -285,21 +301,61 @@
                </div>
            </section>
 
-          <section id="contact" class="contact">
-               <div class="container-fluid">
-                    <h2>Me Contacter <i class="fa-solid fa-address-card"></i> </h2>
-                    <p class="text-center">Vous êtes intéressé par mon profil n'hésitez à me contacter</br>
-                    Vous pouvez me contacter soit par téléphone soit par mail.</p>
-                    <p class="col-sm-6 text-center"><a class="link" href="tel:+33675832526" target="_blank">06.75.83.25.26</a><br> <small>Cliquer pour téléphoner</small></p>
-                    <p class="col-sm-6 text-center"><a class="link" href="mailto: mariannedubois91@gmail.com" target="_blank">mariannedubois91@gmail.com <br><small>Cliquer pour envoyer un mail</small>  </a></p>
+
+           <section id="portfolio" class="hobbies">
+               <div class="container-fluid pb-5">
+                    <div class="text-center">
+                         <h2>Mes Loisirs <img src="https://img.icons8.com/ios-filled/20/000000/drawing.png"/></h2>
+                    </div>
+
+                    <div class="d-flex flex-sm-row gap-5 justify-content-around flex-column">
+                         <div class="round">
+                              <img title="crochet" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-crochet-hobbies-becris-lineal-becris.png"/>
+                         </div>
+                         <div class="round">
+                              <img title="dessin" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-canvas-hobbies-becris-lineal-becris.png"/>
+                         </div>
+                         <div class="round">
+                              <img title="design" src="https://img.icons8.com/external-tulpahn-detailed-outline-tulpahn/64/000000/external-design-printing-tulpahn-detailed-outline-tulpahn-1.png"/>
+                         </div>
+                         <div class="round">
+                              <img title="jeux vidéo" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-game-console-hobbies-becris-lineal-becris.png"/>
+                         </div>
+                         <div class="round">
+                              <img title="lecture" src="https://img.icons8.com/external-becris-lineal-becris/64/000000/external-reading-hobbies-becris-lineal-becris.png"/>
+                         </div>
+
+                    </div>
 
                </div>
+           </section>
+
+          <section id="contact" class="contact">
+               <div class="container">
+                    <h2>Me Contacter <img src="https://img.icons8.com/dotty/40/FFFFFF/mail-contact.png"/> </h2>
+                    <p class="text-center">Vous êtes intéressé par mon profil n'hésitez à me contacter;</br>
+                    Vous pouvez me contacter soit par téléphone soit par mail.</p>
+                    <div class="d-flex justify-content-around text-center">
+                         <p><a class="link" href="tel:+33675832526" target="_blank">06.75.83.25.26</a><br> <small>Cliquer pour téléphoner</small></p>
+                         <p><a class="link" href="mailto: mariannedubois91@gmail.com" target="_blank">mariannedubois91@gmail.com <br><small>Cliquer pour envoyer un mail</small>  </a></p>
+                    </div>
+                    <hr>
+                    <p class="text-center">Vous pouvez aussi me trouver sur github et linkedin </p>
+                    <div class="d-flex justify-content-center gap-5 text-center pb-5">
+                         <a href="https://github.com/Harukishi" title="github"><img src="https://img.icons8.com/ios-filled/30/FFFFFF/github.png"/></a>
+                         <a href="https://www.linkedin.com/in/mariannedubois1/" title="linkedin"><img src="https://img.icons8.com/ios-filled/30/FFFFFF/linkedin.png"/></a> 
+                    </div>
+               </div>
+               
+
           </section>
           
           <footer>
                <div class="text-center">Designed and created by Marianne Dubois : 
                <a href="MarianneDuboisCV.pdf" class="link" target="_blank" download>Télécharger mon cv </a> </div>
           </footer>
+
+
      </main>
 
 
